@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredoka+One&family=Tilt+Neon&display=swap');
+
+body{
+  background: #47c0f5;
+}
+
+#iniciarGame{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+
+}
+h1{
+  color: #5d3378;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 36px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo{
+    font-size: 44px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mensajeInicio{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    margin-top: 100px;
+    color: #5d3378;
+}
+
+.botonIniciar{
+    border-radius: 20px;
+    width: 225px;
+    height: 35px;
+    border: 2px solid #060305;
+    background: #4a2960;
+    color: #FF00CC;
+    font-family: 'Fredoka One', cursive;
+}
+
+.segundaPantalla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaAtaques{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 205px;
+  height: 240px;
+  background: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #bf1d96;
+  border-radius: 30px;
+  color: #FF00CC;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px
+}
+
+.tarjetas{
+   display: flex;
+   gap: 10px;
+}
+
+button.botones:active + label{
+  border: 5px solid #611dbf;
+}
+
+#resultadoCombate{
+  color: #5d3378;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#mensajeCombate{
+  justify-content: center;
+
+}
+
+#elegirAtaque{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Tilt Neon', cursive;
+    color: #C70A80;
+}
+
+#reiniciarGame{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fredoka One', cursive;
+  color: #C70A80;
+}
+
+#reIniciar{
+  font-family: 'Fredoka One', cursive;
+  color: #C70A80;
+  background: #4a2960;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  height: 35px;
+}
+
+.marcador{
+ grid-template-columns: 120px 120px;
+ justify-items: center;
+}
+
+.botones{
+  display: none;
+}
+
+#ataquesDelJugador, #ataquesDelRival {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Tilt Neon', cursive;
+  color: white;
+}
+
+.mensajes{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#mensajeFinal{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+
+

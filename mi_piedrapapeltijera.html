@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Piedra-Papel-Tijera</title>
+  <script src="script.js"> </script>
+  <link  rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+  <section id = "iniciarGame">
+    <h1>Piedra - Papel - Tijeras</h1>
+    <p class = "subtitulo">⛰️ 📃 ✂️</p>
+    <p class = "mensajeInicio">Desea iniciar el juego</p>
+    <button class = "botonIniciar" id = "iniciar">✌ I N I C I A R ✌</button>
+  </section>
+  
+ <div class = "segundaPantalla">
+
+  <section id = "elegirAtaque">
+      <h1>Piedra - Papel - Tijeras</h1>
+      <h2>Elige tu ataque</h2>
+
+	<div class = "tarjetas">
+
+		<button class = "botones" id = "botonPiedra">Piedra⛰️</button>
+		<label for="botonPiedra" class = "tarjetaAtaques">
+			<p class = "textoAtaques">PIEDRA</p>
+			<img src="./imagenes/piedra.jpg" alt="piedra">
+		</label>
+      	
+		<button class = "botones" id = "botonPapel">Papel📃</button>
+		<label for="botonPapel" class = "tarjetaAtaques">
+			<p class = "textoAtaques">PAPEL</p>
+      		<img src="./imagenes/papel.jpg" alt="papel">
+		</label>
+      	
+     		<button class = "botones" id = "botonTijera">Tijeras✂️</button>
+		<label for="botonTijera" class = "tarjetaAtaques">
+			<p class = "textoAtaques">TIJERA</p>
+      		<img src="./imagenes/tijera.jpg" alt="tijera">
+		</label>
+	</div>
+    </section>
+	
+	<div>
+		<section id="mensajeCombate">
+			<p id = "resultadoCombate">MUCHA SUERTE!</p>
+		</section>
+
+		<section id = "reiniciarGame">
+      		<p>Desea volver a jugar</p>
+      		<button id = "reIniciar">Reiniciar✌</button>
+    		</section>	
+	</div>
+
+	<div class = "marcador" id = "vidaJugadores">	
+		<div id = "ataquesDelJugador">
+			<p class = "mensajes"> Vidas Jugador </p>
+			<p class = "mensajes" id = "vidaJugador"> 3 </p>
+			<div id = "eleccionJugador"></div>
+		</div>
+
+		<div id = "ataquesDelRival">
+			<p class = "mensajes"> Vidas Rival </p>
+			<p class = "mensajes" id = "vidaEnemigo"> 3 </p>
+			<div id = "eleccionRival"></div>
+		</div>
+      </div>
+	<div id = "mensajeFinal"></div>
+
+ </div>
+  
+  
+
+  
+</body>
+
+</html>
